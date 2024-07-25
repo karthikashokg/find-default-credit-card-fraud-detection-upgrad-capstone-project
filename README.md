@@ -73,19 +73,19 @@ Anomaly detection techniques, including isolation forests and autoencoders, offe
 Exploring the integration of advanced deep learning models like Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs) alongside traditional machine learning techniques holds significant promise for enhancing fraud detection systems. These neural network architectures offer unique capabilities for processing sequential and structured data, which are crucial in identifying anomalous patterns indicative of fraudulent activities. By leveraging CNNs and RNNs, alongside hybrid models that combine the strengths of both deep learning and traditional algorithms, we can improve accuracy, adaptability, and overall performance in fraud detection. Additionally, techniques such as unsupervised learning, transfer learning, and feature extraction through deep learning can further enhance the efficiency and effectiveness of fraud detection systems. Through these advancements, we aim to bolster our ability to detect and prevent fraudulent transactions, ultimately safeguarding financial systems and protecting consumers from financial losses.
 
 ## Project Assets Overview:
-- [data](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/data):
+- [data](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/data):
   This folder contains the dataset(s) used in the project. Includes raw.csv file along with a README file explaining the dataset's attributes. The 'preprocessed_data.csv' and 'resampled_os.csv' data files have been excluded from the repository by adding them to the .gitignore file due to their large file sizes.
-- [notebooks](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/notebooks):
+- [notebooks](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/notebooks):
   This folder contains Jupyter notebooks consisting all the project work i.e. data exploration, preprocessing, feature engineering, model building, model training and evaluation for the best fitting model along with detailed explaination.
-- [model](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/model):
+- [model](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/model):
   This folder contains the trained machine learning model serialization files (e.g., Pickle files) used in the project. 
-- [visuals](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/visuals):
+- [visuals](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/tree/main/visuals):
   This folder contains data visualizations and plots generated during exploratory data analysis or model evaluation.
-- [Report](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/Report.pdf):
+- [Report](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/Report.pdf):
   This is a documentation pdf file consisting the project report.
-- [requirements.txt](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/requirements.txt):
+- [requirements.txt](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/requirements.txt):
   This file contains all the required packages for this project. (Use command for installation: pip install -r requirements.txt)
-- [app.py](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/app.py):
+- [app.py](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/blob/main/app.py):
   This app.py script essentially creates a web service(Flask application) that exposes a prediction endpoint, allowing user to send input data and receive predictions from the trained machine learning model. 
 
 ## Project Set-Up:
@@ -108,47 +108,47 @@ Exploring the integration of advanced deep learning models like Convolutional Ne
    - python app.py
 6. Click on the link from the terminal as shown below-
    
-   ![image1](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/40111259-c764-4d71-add9-bf2dedd4bed2)
+   ![image1](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/40111259-c764-4d71-add9-bf2dedd4bed2)
    
    You will get ML API Web page as shown below -
    
-   ![image2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/5d55bf43-2e89-4f1f-aad7-5a639a398b4a)
+   ![image2](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/5d55bf43-2e89-4f1f-aad7-5a639a398b4a)
 
    Fill the Values to Predict the Class of Transaction-
    
-   ![image3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/7d651f34-589d-4151-b0f2-9980789f51e1)
+   ![image3](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/7d651f34-589d-4151-b0f2-9980789f51e1)
 
    Check the Prediction by clicking on the 'Predict' Button-
    
-   ![image4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/98fcfeec-7e54-470d-a6ec-abdf522dca77)
+   ![image4](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/98fcfeec-7e54-470d-a6ec-abdf522dca77)
    
 7. Same You can check with Postman Application-
    Open the Postman -> Click on + icon -> Paste the link followed by predict_api as shown below-
 
-   ![postman1](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/d54933d7-73a4-4629-b890-74c6e2c8eb61)
+   ![postman1](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/d54933d7-73a4-4629-b890-74c6e2c8eb61)
 
    Click Body -> raw -> JSON
 
-   ![postman2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a8e872b4-035e-40e3-a739-ffebbb43d93e)
+   ![postman2](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a8e872b4-035e-40e3-a739-ffebbb43d93e)
 
    Change to Post method and add a data in the json format-
 
-   ![postman3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/27ae8694-e770-42a5-9d89-40784ce37b59)
+   ![postman3](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/27ae8694-e770-42a5-9d89-40784ce37b59)
 
    Click on the Send Button, You will get result as shown below-
 
-   ![postman4](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/e8ba6df2-7488-446e-96a9-79749fb8fbb0)
+   ![postman4](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/e8ba6df2-7488-446e-96a9-79749fb8fbb0)
 
 8. Using Deployed model on Heroku Cloud Services-
    Check the details using following screenshots-
    
-   ![deployed_model](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/782d630d-9e9d-4d74-bd3a-d008bc345c6b)
+   ![deployed_model](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/782d630d-9e9d-4d74-bd3a-d008bc345c6b)
 
-   ![model_deployed](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a9f670c4-9b76-4c09-9a8e-b8b10cbda8b5)
+   ![model_deployed](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/a9f670c4-9b76-4c09-9a8e-b8b10cbda8b5)
 
-   ![Heroku2](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/8b5fa01d-3ab5-47e3-84bd-8366418d80e2)
+   ![Heroku2](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/8b5fa01d-3ab5-47e3-84bd-8366418d80e2)
 
-   ![Heroku3](https://github.com/SanamBodake/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/76bb3d43-9f5b-46b4-b508-dd33057530ec)
+   ![Heroku3](https://github.com/karthikashokg/find-default-credit-card-fraud-detection-upgrad-capstone-project/assets/73472725/76bb3d43-9f5b-46b4-b508-dd33057530ec)
 
    
 
