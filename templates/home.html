@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1> FindDefault: Prediction of Credit Card Fraud </h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+      <input type="text" name="Time" placeholder="Time" required="required" /><br>
+    	<input type="text" name="V1" placeholder="v1" required="required" /><br>
+        <input type="text" name="V2" placeholder="v2" required="required" /><br>
+        <input type="text" name="V3" placeholder="v3" required="required" /><br>
+        <input type="text" name="V4" placeholder="v4" required="required" /><br>
+        <input type="text" name="V5" placeholder="v5" required="required" /><br>
+        <input type="text" name="V6" placeholder="v6" required="required" /><br>
+        <input type="text" name="V7" placeholder="v7" required="required" /><br>
+        <input type="text" name="V8" placeholder="v8" required="required" /><br>
+        <input type="text" name="V9" placeholder="v9" required="required" /><br>
+        <input type="text" name="V10" placeholder="v10" required="required" /><br>
+        <input type="text" name="V11" placeholder="v11" required="required" /><br>
+        <input type="text" name="V12" placeholder="v12" required="required" /><br>
+        <input type="text" name="V13" placeholder="v13" required="required" /><br>
+        <input type="text" name="V14" placeholder="v14" required="required" /><br>
+        <input type="text" name="V15" placeholder="v15" required="required" /><br>
+        <input type="text" name="V16" placeholder="v16" required="required" /><br>
+        <input type="text" name="V17" placeholder="v17" required="required" /><br>
+        <input type="text" name="V18" placeholder="v18" required="required" /><br>
+        <input type="text" name="V19" placeholder="v19" required="required" /><br>
+        <input type="text" name="V20" placeholder="v20" required="required" /><br>
+        <input type="text" name="V21" placeholder="v21" required="required" /><br>
+        <input type="text" name="V22" placeholder="v22" required="required" /><br>
+        <input type="text" name="V23" placeholder="v23" required="required" /><br>
+        <input type="text" name="V24" placeholder="v24" required="required" /><br>
+        <input type="text" name="V25" placeholder="v25" required="required" /><br>
+        <input type="text" name="V26" placeholder="v26" required="required" /><br>
+        <input type="text" name="V27" placeholder="v27" required="required" /><br>
+        <input type="text" name="V28" placeholder="v28" required="required" /><br>
+        <input type="text" name="Amount" placeholder="Amount" required="required" /><br>
+
+       
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>
